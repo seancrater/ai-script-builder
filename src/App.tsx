@@ -1,3 +1,4 @@
+import { Toaster } from "@/components/ui/sonner";
 import { Header } from "@/components/Header";
 import { EditorHeader } from "@/components/EditorHeader";
 import { Editor } from "@/components/Editor";
@@ -12,6 +13,7 @@ export default function App() {
         <div className="max-w-4xl mx-auto">
           <EditorHeader />
           <Editor />
+          <Toaster />
         </div>
       </section>
     </div>
